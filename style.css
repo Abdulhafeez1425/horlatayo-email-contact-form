@@ -1,0 +1,46 @@
+
+.container{
+max-width: 1320px;
+text-align: center;
+margin: 0 auto;
+padding: 4%;
+
+
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+input,textarea{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+label{
+    margin: 0 auto;
+   
+}
+input{
+    margin-bottom: 1rem;
+    height: 30px;
+    border-radius: 1rem;
+}
+input[type=submit]{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 3rem;
+    background: darkturquoise;
+    height: 50px;
+    transition: all 4s ease;
+
+}
+input[type=submit]:hover{
+    opacity: 0.8;
+}
