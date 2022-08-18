@@ -12,6 +12,6 @@ $to = "abdulhafeezolabisi973@gmail.com";
 mail($to, $phone, $subject, $message, $header)
 or die("Error: Message is not Sent");
 
-echo "Message Sent"
+echo "Message Sent";
 
 ?>
